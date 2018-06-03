@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# cellviz3d
+
+The goal of {cellviz3d} is to propose visualization for segmentized images issued from 3D/4D microscopy. This can be linked with outputs from MorphographX with [{mgx2r}](https://github.com/marionlouveaux/mgx2r) <!--or Mamut with [{mamut2r}](https://github.com/marionlouveaux/mamut2r)-->
+
+## Installation
+
+You can install the released version of {cellviz3d} from [Github](https://github.com/marionlouveaux/cellviz3d) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("marionlouveaux/cellviz3d")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+## basic example code
+```
+
+## Code of conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
