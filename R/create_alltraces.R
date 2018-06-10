@@ -11,7 +11,6 @@
 #' @importFrom dplyr left_join pull select
 #' @return A list.
 #'
-#' @examples
 
 create_alltraces <- function(meshExample,
                              graphExample,

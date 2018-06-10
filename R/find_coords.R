@@ -9,7 +9,6 @@
 #' @return a tibble with coordinates (x1, y1, z1, x2, y2, z2)
 #' @export
 #'
-#' @examples
 
 find_coords <- function(cellcenter, tipUnit, d, scale = 1) {
   d <- d*scale
