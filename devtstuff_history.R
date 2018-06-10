@@ -25,12 +25,12 @@ my_desc$set("Authors@R", "person('Marion', 'Louveaux', email = 'marion.louveaux@
 my_desc$del("Maintainer")
 
 # Set the version
-my_desc$set_version("0.0.0.9000")
+my_desc$set_version("0.1.0.9000")
 
 # The title of your package
-my_desc$set(Title = "Tools for 3D/4D interactive visualization of cells and biological tissue")
+my_desc$set(Title = "Tools for 3D/4D interactive visualisation of cells and biological tissues")
 # The description of your package
-my_desc$set(Description = "Proposes visualization for segmented images issued from 3D/4D microscopy. This can be linked with outputs from MorphographX with {mgx2r} or Mamut with {mamut2r}.")
+my_desc$set(Description = "Proposes visualisation of meshes created from the segmentation of 3D/4D microscopic images, and point clouds. In particular, it helps visualising meshes from MorphographX, in combination with {mgx2r}, or point clouds from the MaMuT Fiji plugin, in combination with {mamut2r}.")
 
 # Depends
 my_desc$set(Depends = "R (>= 3.4)")
@@ -41,7 +41,7 @@ my_desc$set("BugReports", "https://github.com/marionlouveaux/cellviz3d/issues")
 # Save everyting
 my_desc$write(file = "DESCRIPTION")
 
-# If you want to use the MIT licence, code of conduct, lifecycle badge, and README
+# If you want to use a licence, the code of conduct, the lifecycle badge, and the README
 usethis::use_gpl3_license(name = "Marion Louveaux")
 usethis::use_readme_rmd()
 usethis::use_code_of_conduct()
