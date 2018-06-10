@@ -30,7 +30,10 @@ my_desc$set_version("0.0.0.9000")
 # The title of your package
 my_desc$set(Title = "Tools for 3D/4D interactive visualization of cells and biological tissue")
 # The description of your package
-my_desc$set(Description = "Proposes visualization for segmentized images issued from 3D/4D microscopy. This can be linked with outputs from MorphographX with {mgx2r} or Mamut with {mamut2r}.")
+my_desc$set(Description = "Proposes visualization for segmented images issued from 3D/4D microscopy. This can be linked with outputs from MorphographX with {mgx2r} or Mamut with {mamut2r}.")
+
+# Depends
+my_desc$set(Depends = "R (>= 3.4)")
 
 # The urls
 my_desc$set("URL", "https://github.com/marionlouveaux/cellviz3d")
@@ -53,10 +56,18 @@ usethis::use_testthat()
 usethis::use_test("app")
 
 # Dependencies
+usethis::use_pipe()
 usethis::use_package("shiny")
 usethis::use_package("DT")
 usethis::use_package("stats")
 usethis::use_package("graphics")
+usethis::use_package("colorRamps")
+usethis::use_package("dplyr")
+usethis::use_package("glue")
+usethis::use_package("plotly")
+usethis::use_package("purrr")
+usethis::use_package("tidyr")
+usethis::use_package("utils")
 # Suggests
 usethis::use_package("knitr", type = "Suggests")
 usethis::use_package("rmarkdown", type = "Suggests")
