@@ -7,8 +7,8 @@
 #' @docType package
 #' @author Marion <marion.louveaux@@gmail.com>
 #'
-#' @section Visualisation of meshes
+#' @section Visualisation of meshes:
 #'
-#' See the functions plotlyMesh(), plotlyMeshall, show_tensors and show_cellcontour.
+#' See the functions \code{\link{plotlyMesh}}, \code{\link{plotlyMesh_all}}, \code{\link{show_tensors}} and \code{\link{show_cellcontour}}.
 #'
 NULL
