@@ -14,6 +14,7 @@ os:
 before_install:
   - echo "TRAVIS_OS_NAME = $TRAVIS_OS_NAME"
   - export RGL_USE_NULL=TRUE
+  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install libgit2; fi;
 
 
 #r_github_packages:
