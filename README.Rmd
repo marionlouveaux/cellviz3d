@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
+ [![Travis build status](https://travis-ci.org/marionlouveaux/cellviz3d.svg?branch=master)](https://travis-ci.org/marionlouveaux/cellviz3d)
 
 # cellviz3d
 
@@ -75,6 +76,10 @@ knitr::include_graphics("https://github.com/marionlouveaux/cellviz3d/blob/master
 
 
 For more examples, see the vignette of {cellviz3d} and {mgx2r}.
+
+## Acknowledgements
+
+Many thanks to [@friep](https://github.com/friep) for her help on the plotlySpots_all() function.
 
 ## Code of conduct
 

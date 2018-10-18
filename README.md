@@ -1,5 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis build status](https://travis-ci.org/marionlouveaux/cellviz3d.svg?branch=master)](https://travis-ci.org/marionlouveaux/cellviz3d)
+
 cellviz3d
 =========
 
@@ -58,7 +60,14 @@ plotlyMesh(meshExample = myMesh,
 
 <img src="https://github.com/marionlouveaux/cellviz3d/blob/master/inst/extdata/mgx/img/p1labels.png" width="100%" />
 
+<img src="https://github.com/marionlouveaux/cellviz3d/blob/master/inst/extdata/mgx/img/timeserie800ms.gif" width="75%" text-align="center"/>
+
 For more examples, see the vignette of {cellviz3d} and {mgx2r}.
+
+Acknowledgements
+----------------
+
+Many thanks to \[@friep\](<https://github.com/friep>) for her help on the plotlySpots\_all() function.
 
 Code of conduct
 ---------------
