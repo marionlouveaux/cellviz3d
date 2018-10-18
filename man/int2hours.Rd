@@ -3,7 +3,7 @@
 \name{int2hours}
 \alias{int2hours}
 \title{Convert an integer to hour minutes in digital format
-Assumes that integers (0, 1, 2) refers to 30 minutes timesteps (00:00, 00:30, 01:00)...}
+Assumes that integers (0, 1, 2) refers to 30 minutes timesteps (00:00, 00:30, 01:00)... Same function as in {mamut2r}.}
 \usage{
 int2hours(x)
 }
@@ -15,5 +15,5 @@ a string with the hour in digital format (HH:mm)
 }
 \description{
 Convert an integer to hour minutes in digital format
-Assumes that integers (0, 1, 2) refers to 30 minutes timesteps (00:00, 00:30, 01:00)...
+Assumes that integers (0, 1, 2) refers to 30 minutes timesteps (00:00, 00:30, 01:00)... Same function as in {mamut2r}.
 }

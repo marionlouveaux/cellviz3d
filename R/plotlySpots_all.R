@@ -1,4 +1,4 @@
-#' A layout for 3D scatter plotly graphs with a time player  - Many thanks to @friep for her help on this function.
+#' A layout for 3D scatter plotly graphs with a time player
 #'
 #' @param Spots_df dataframe containing x,y,z coordinates, timepoints and number of spots per timepoint (for instance generated with Spots.as.dataframe)
 #' @param x x coordinate
@@ -13,6 +13,7 @@
 #'
 #' @return
 #' @export
+#' @note Many thanks to \href{https://github.com/friep}{@friep} for her help on this function.
 #'
 #' @examples
 

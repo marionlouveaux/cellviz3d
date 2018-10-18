@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotlySpots_all.R
 \name{plotlySpots_all}
 \alias{plotlySpots_all}
-\title{A layout for 3D scatter plotly graphs with a time player  - Many thanks to @friep for her help on this function.}
+\title{A layout for 3D scatter plotly graphs with a time player}
 \usage{
 plotlySpots_all(Spots_df, x, y, z, timepoint, number, color)
 }
@@ -22,5 +22,8 @@ plotlySpots_all(Spots_df, x, y, z, timepoint, number, color)
 \item{color}{continuous value used for coloring the spots}
 }
 \description{
-A layout for 3D scatter plotly graphs with a time player  - Many thanks to @friep for her help on this function.
+A layout for 3D scatter plotly graphs with a time player
+}
+\note{
+Many thanks to \href{https://github.com/friep}{@friep} for her help on this function.
 }
