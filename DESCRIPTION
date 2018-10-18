@@ -1,6 +1,6 @@
 Package: cellviz3d
 Title: Tools for 3D/4D interactive visualization of cells and biological tissue
-Version: 0.0.0.9000
+Version: 0.0.1.9000
 Authors@R: person('Marion', 'Louveaux', email = 'marion.louveaux@gmail.com', role = c('cre', 'aut'))
 Description: Proposes visualization for segmented images issued from 3D/4D microscopy. This can be linked with outputs from MorphographX with {mgx2r} or Mamut with {mamut2r}.
 License: GPL-3
@@ -28,4 +28,4 @@ Suggests:
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0

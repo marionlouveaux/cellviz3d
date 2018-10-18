@@ -71,6 +71,9 @@ plotlyMesh(meshExample = myMesh,
 knitr::include_graphics("https://github.com/marionlouveaux/cellviz3d/blob/master/inst/extdata/mgx/img/p1labels.png")
 ```
 
+<img src="https://github.com/marionlouveaux/cellviz3d/blob/master/inst/extdata/mgx/img/timeserie800ms.gif" width="75%" text-align="center"/>
+
+
 For more examples, see the vignette of {cellviz3d} and {mgx2r}.
 
 ## Code of conduct
