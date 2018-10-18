@@ -2,7 +2,6 @@
 
 export("%>%")
 export(find_coords)
-export(int2hours)
 export(mod_csv_file)
 export(mod_csv_fileInput)
 export(plotlyMesh)

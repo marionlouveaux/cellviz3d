@@ -57,24 +57,25 @@ usethis::use_test("app")
 
 # Dependencies
 usethis::use_pipe()
-usethis::use_package("shiny")
-usethis::use_package("DT")
-usethis::use_package("stats")
-usethis::use_package("graphics")
-usethis::use_package("colorRamps")
-usethis::use_package("dplyr")
-usethis::use_package("glue")
-usethis::use_package("plotly")
-usethis::use_package("purrr")
-usethis::use_package("tidyr")
-usethis::use_package("utils")
-# Suggests
-usethis::use_package("knitr", type = "Suggests")
-usethis::use_package("rmarkdown", type = "Suggests")
-usethis::use_package("testthat", type = "Suggests")
+# usethis::use_package("shiny")
+# usethis::use_package("DT")
+# usethis::use_package("stats")
+# usethis::use_package("graphics")
+# usethis::use_package("colorRamps")
+# usethis::use_package("dplyr")
+# usethis::use_package("glue")
+# usethis::use_package("plotly")
+# usethis::use_package("purrr")
+# usethis::use_package("tidyr")
+# usethis::use_package("utils")
+# # Suggests
+# usethis::use_package("knitr", type = "Suggests")
+# usethis::use_package("rmarkdown", type = "Suggests")
+# usethis::use_package("testthat", type = "Suggests")
+attachment::att_to_description() #extra.suggests = "pkgdown"
 
 # Reorder your DESC
-usethis::use_tidy_description()
+# usethis::use_tidy_description()
 
 # Vignette
 usethis::use_vignette("mgx-viz3d")
@@ -90,6 +91,8 @@ usethis::use_github_links()
 usethis::use_travis()
 # usethis::use_appveyor()
 usethis::use_coverage()
+usethis::use_build_ignore("appveyor.yml")
+usethis::use_build_ignore(".travis.yml")
 
 # Test with rhub
 # rhub::check_for_cran()
