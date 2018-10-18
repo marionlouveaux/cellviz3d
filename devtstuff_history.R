@@ -72,7 +72,7 @@ usethis::use_pipe()
 # usethis::use_package("knitr", type = "Suggests")
 # usethis::use_package("rmarkdown", type = "Suggests")
 # usethis::use_package("testthat", type = "Suggests")
-attachment::att_to_description() #extra.suggests = "pkgdown"
+attachment::att_to_description(extra.suggests = "pkgdown")
 
 # Reorder your DESC
 # usethis::use_tidy_description()
@@ -96,4 +96,7 @@ usethis::use_build_ignore(".travis.yml")
 
 # Test with rhub
 # rhub::check_for_cran()
+
+# Vignettes
+devtools::build_vignettes()
 

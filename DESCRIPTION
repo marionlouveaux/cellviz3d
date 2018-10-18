@@ -10,7 +10,8 @@ Authors@R:
            comment = c(ORCID = "0000-0002-1794-3748"))
 Description: Proposes visualization for segmented images issued
     from 3D/4D microscopy. This can be linked with outputs from the
-    MorphographX software with {mgx2r} or from the Fiji plugin MaMuT with {mamut2r}.
+    MorphographX software with {mgx2r} or from the Fiji plugin MaMuT with
+    {mamut2r}.
 License: GPL-3
 URL: https://github.com/marionlouveaux/cellviz3d
 BugReports: https://github.com/marionlouveaux/cellviz3d/issues
@@ -31,6 +32,7 @@ Imports:
     utils
 Suggests: 
     knitr,
+    pkgdown,
     rmarkdown,
     testthat
 VignetteBuilder: 

@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Travis build status](https://travis-ci.org/marionlouveaux/cellviz3d.svg?branch=master)](https://travis-ci.org/marionlouveaux/cellviz3d)
+[![Travis build status](https://travis-ci.org/marionlouveaux/cellviz3d.svg?branch=master)](https://travis-ci.org/marionlouveaux/cellviz3d) [![Build status](https://ci.appveyor.com/api/projects/status/c3gwf6x0l1afabie?svg=true)](https://ci.appveyor.com/project/marionlouveaux/cellviz3d)
 
 cellviz3d
 =========
@@ -18,6 +18,11 @@ devtools::install_github("marionlouveaux/cellviz3d")
 # With vignettes
 devtools::install_github("marionlouveaux/cellviz3d", build_vignettes = TRUE)
 ```
+
+Full documentation with {pkgdown}
+---------------------------------
+
+See full documentation created with {pkgdown} at <https://marionlouveaux.github.io/cellviz3d/>
 
 Vignette
 --------
@@ -58,9 +63,9 @@ plotlyMesh(meshExample = myMesh,
   layout(scene = list(aspectmode = "data"))
 ```
 
-<img src="https://github.com/marionlouveaux/cellviz3d/blob/master/inst/extdata/mgx/img/p1labels.png" width="100%" />
+<img src="https://raw.githubusercontent.com/marionlouveaux/cellviz3d/master/inst/extdata/mgx/img/p1labels.png" width="80%" />
 
-<img src="https://github.com/marionlouveaux/cellviz3d/blob/master/inst/extdata/mgx/img/timeserie800ms.gif" width="75%" text-align="center"/>
+<img src="https://raw.githubusercontent.com/marionlouveaux/cellviz3d/master/inst/extdata/mgx/img/timeserie800ms.gif" width="75%" text-align="center"/>
 
 For more examples, see the vignette of {cellviz3d} and {mgx2r}.
 

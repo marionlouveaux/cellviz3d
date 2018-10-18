@@ -9,25 +9,41 @@ r:
 
 os:
   - linux
-  - osx
+#  - osx
 
 before_install:
   - echo "TRAVIS_OS_NAME = $TRAVIS_OS_NAME"
   - export RGL_USE_NULL=TRUE
   - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install libgit2; fi;
 
+r_packages:
+    - colorRamps
+    - dplyr
+    - DT
+    - glue
+    - graphics
+    - magrittr
+    - plotly
+    - purrr
+    - shiny
+    - stats
+    - tidyr
+    - utils
+    - knitr
+    - rmarkdown
+    - testthat
 
-#r_github_packages:
-#  - marionlouveaux/cellviz3d  # pre-install to avoid vignette package errors
+r_github_packages:
+  - marionlouveaux/cellviz3d  # pre-install to avoid vignette package errors
 
-#after_success:
-#  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then Rscript -e 'pkgdown::build_site()'; fi;
+after_success:
+  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then Rscript -e 'pkgdown::build_site()'; fi;
 
-#deploy:
-#  provider: pages
-#  skip-cleanup: true
-#  github-token: $GITHUB_PAT
-#  keep-history: true
-#  local-dir: docs
-#  on:
-#    branch: master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_PAT
+  keep-history: true
+  local-dir: docs
+  on:
+    branch: master

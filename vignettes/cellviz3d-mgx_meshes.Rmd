@@ -45,7 +45,10 @@ plotlyMesh(meshExample = myMesh,
 
 
 ```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata", "mgx/img/p1labels.png", package = "cellviz3d"))
+silent <- file.copy(
+  system.file("extdata", "mgx/img/p1labels.png", package = "cellviz3d"),
+  "p1labels.png")
+knitr::include_graphics("p1labels.png")
 ```
 
 ## Visualisation of a time serie
@@ -75,9 +78,11 @@ plotlyMesh_all(meshExample = mesh.all,
 ```
 
 ```{r echo=FALSE}
-knitr::include_graphics(system.file("extdata", "mgx/img/timeserie800ms.gif", package = "cellviz3d"))
+silent <- file.copy(
+  system.file("extdata", "mgx/img/timeserie800ms.gif", package = "cellviz3d"),
+  "timeserie800ms.gif")
+knitr::include_graphics("timeserie800ms.gif")
 ```
-
 
 
 For more examples, see the vignette of the [{mgx2r}](https://github.com/marionlouveaux/mgx2r) package:
