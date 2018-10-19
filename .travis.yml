@@ -9,7 +9,7 @@ r:
 
 os:
   - linux
-#  - osx
+  - osx
 
 before_install:
   - echo "TRAVIS_OS_NAME = $TRAVIS_OS_NAME"
@@ -47,3 +47,4 @@ deploy:
   local-dir: docs
   on:
     branch: master
+    condition: $TRAVIS_OS_NAME = linux
