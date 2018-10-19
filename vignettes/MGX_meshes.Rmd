@@ -1,10 +1,10 @@
 ---
-title: "Vignette cellviz3d - mgx meshes"
+title: "Visualisation of MorphoGraphX meshes"
 author: "Vignette Author"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{Visualisation of MorphoGraphX meshes}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

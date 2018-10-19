@@ -1,10 +1,10 @@
 ---
-title: "MaMut Spot Clouds"
+title: "Visualisation of MaMuT spots clouds"
 author: "Marion Louveaux"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{MaMut Spot Clouds}
+  %\VignetteIndexEntry{Visualisation of MaMuT spots clouds}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
