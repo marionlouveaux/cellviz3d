@@ -1,7 +1,7 @@
 Package: cellviz3d
 Title: Tools for 3D/4D interactive visualization of cells and
     biological tissues
-Version: 0.0.2
+Version: 0.0.2.9000
 Authors@R: 
     person(given = "Marion",
            family = "Louveaux",
