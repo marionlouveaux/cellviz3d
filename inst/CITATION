@@ -1,0 +1,15 @@
+citHeader("To cite cellviz3d in publications use:")
+
+citEntry(entry = "misc",
+  title        = "cellviz3d: a R package for the 3D and 4D interactive visualization of cells and biological tissues.",
+  author       = personList(as.person("Marion Louveaux")),
+  journal      = "Zenodo",
+  year         = "2018",
+  url          = "http://doi.org/10.5281/zenodo.1467416",
+
+  textVersion  =
+  paste("Marion Louveaux. (2018, October 19).",
+        "cellviz3d: a R package for the 3D and 4D interactive visualization of cells and biological tissues (Version v0.0.2).",
+        "Zenodo.",
+        "http://doi.org/10.5281/zenodo.1467416")
+)

@@ -7,6 +7,13 @@ cellviz3d
 
 The goal of {cellviz3d} is to propose visualisation of meshes created from the segmentation of 3D/4D microscopic images, and point clouds. In particular, it helps visualising meshes from MorphographX, in combination with [{mgx2r}](https://github.com/marionlouveaux/mgx2r), or point clouds from the MaMuT Fiji plugin, in combination with {mamut2r}. <!--[{mamut2r}](https://github.com/marionlouveaux/mamut2r)-->
 
+How to cite
+-----------
+
+To cite {cellviz3d}, call the R built-in command `citation("cellviz3d")`.
+
+> Marion Louveaux. (2018, October 19). marionlouveaux/cellviz3d: cellviz3d: a R package for the 3D and 4D interactive visualization of cells and biological tissues (Version v0.0.2). Zenodo. <http://doi.org/10.5281/zenodo.1467416>
+
 Installation
 ------------
 
