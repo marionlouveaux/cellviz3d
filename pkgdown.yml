@@ -2,6 +2,6 @@ pandoc: '2.2'
 pkgdown: 1.1.0
 pkgdown_sha: ~
 articles:
-  cellviz3d-mamut_spot_clouds: cellviz3d-mamut_spot_clouds.html
-  cellviz3d-mgx_meshes: cellviz3d-mgx_meshes.html
+  MGX_meshes: MGX_meshes.html
+  MaMuT_spots_clouds: MaMuT_spots_clouds.html
 
