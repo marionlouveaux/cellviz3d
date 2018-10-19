@@ -1,18 +1,18 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Travis build status](https://travis-ci.org/marionlouveaux/cellviz3d.svg?branch=master)](https://travis-ci.org/marionlouveaux/cellviz3d) [![Build status](https://ci.appveyor.com/api/projects/status/c3gwf6x0l1afabie?svg=true)](https://ci.appveyor.com/project/marionlouveaux/cellviz3d)
+[![Travis build status](https://travis-ci.org/marionlouveaux/cellviz3d.svg?branch=master)](https://travis-ci.org/marionlouveaux/cellviz3d) [![Build status](https://ci.appveyor.com/api/projects/status/c3gwf6x0l1afabie?svg=true)](https://ci.appveyor.com/project/marionlouveaux/cellviz3d) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1467416.svg)](https://doi.org/10.5281/zenodo.1467416)
 
 cellviz3d
 =========
 
-The goal of {cellviz3d} is to propose visualisation of meshes created from the segmentation of 3D/4D microscopic images, and point clouds. In particular, it helps visualising meshes from MorphographX, in combination with [{mgx2r}](https://github.com/marionlouveaux/mgx2r), or point clouds from the MaMuT Fiji plugin, in combination with {mamut2r}. <!--[{mamut2r}](https://github.com/marionlouveaux/mamut2r)-->
+The goal of {cellviz3d} is to propose visualisation of meshes created from the segmentation of 3D/4D microscopic images, and point clouds. In particular, it helps visualising meshes from MorphographX, in combination with [{mgx2r}](https://github.com/marionlouveaux/mgx2r), or point clouds from the [MaMuT Fiji plugin](https://imagej.net/MaMuT), in combination with {mamut2r}.
 
 How to cite
 -----------
 
 To cite {cellviz3d}, call the R built-in command `citation("cellviz3d")`.
 
-> Marion Louveaux. (2018, October 19). marionlouveaux/cellviz3d: cellviz3d: a R package for the 3D and 4D interactive visualization of cells and biological tissues (Version v0.0.2). Zenodo. <http://doi.org/10.5281/zenodo.1467416>
+> Marion Louveaux. (2018, October 19). cellviz3d: a R package for the 3D and 4D interactive visualization of cells and biological tissues (Version v0.0.2). Zenodo. <http://doi.org/10.5281/zenodo.1467416>
 
 Installation
 ------------
